@@ -1,0 +1,13 @@
+[Unit]
+Description=Name.Com DNS Service
+After=syslog.target
+
+[Service]
+
+ExecStart=ruby /opt/named/named.rb --pid-file=/run/named/named.pid 
+
+Restart=always
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

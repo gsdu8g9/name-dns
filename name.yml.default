@@ -1,0 +1,16 @@
+interval: 300
+api_url: https://api.name.com/
+api_username: ***
+api_token: ***
+domain: 
+  - name: axcoto.com
+    dns:
+     - 
+     - jurai
+     - noty
+     - noty3
+  - name: willingapp.com
+    dns:
+      -      
+      - api_url
+      - b
